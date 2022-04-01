@@ -36,7 +36,7 @@ function isNum (val: string) {
 
 function blowUp (s: string) {
   // this function blows a string up.
-  let returnStr: string = ''
+  let returnStr = ''
   if (s.length === 1) {
     if (!isNum(s.substr(0))) {
       returnStr = s.substr(0)
